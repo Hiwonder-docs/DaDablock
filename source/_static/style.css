@@ -69,6 +69,10 @@ table{
     display: block;
     margin: 0 auto 24px;
 }
+.inline-icon{
+    display: block;
+    margin: 0 auto 24px;
+}
 table.highlighttable{
     margin: 0 auto;
 }
