@@ -1,18 +1,16 @@
-﻿# 1. Kit Overview
+# 1. Kit Overview
 
 ## 1.1 Product Introduction
 
 DaDablock is a versatile building block kit built around ESP32 programming. It includes the ESP32 controller, ESP32 expansion board, line follower sensor, 270° block servo, 360° block motor, and other electronic modules, along with more than 300 structural parts for building a wide range of creative models. The course materials are extensive and include 36 creative builds, covering everything from model assembly to programming for interactive play, combining hands-on making with educational exploration.
 
-<img src="../_static/media/chapter_1/section_1/media/image.png"  class="inline-icon" style="width:600px;" >
+<img src="../_static/media/chapter_1/image.png"  class="inline-icon" style="width:800px;" >
 
 ## 1.2 Packing List
 
-<img src="../_static/media/chapter_1/section_2/media/image1.png"  class="inline-icon" style="width:600px;" >
+<img src="../_static/media/chapter_1/image1.png"  class="inline-icon" style="width:800px;" >
 
-<img src="../_static/media/chapter_1/section_2/media/image2.png"  class="inline-icon" style="width:600px;" >
 
-<img src="../_static/media/chapter_1/section_2/media/image3.png"  class="inline-icon" style="width:600px;" >
 
 ## 1.3 Disclaimer
 
