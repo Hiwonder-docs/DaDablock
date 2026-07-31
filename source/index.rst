@@ -4,16 +4,15 @@
    contain the root `toctree` directive.
 
 ===========
-DaDablock
+Standard Kit
 ===========
 
 .. toctree::
    :maxdepth: 2
-   :caption: DaDablock
+   :caption: Standard Kit
 
-   docs/1.Kit_Overview.md
-   docs/2.Quick_Start_Guide.md
-   docs/3.Sensors_and_Modules_Introduction.md
-   docs/4.Standard_Kit_Creative_Builds.md
-   docs/5.Advanced_Kit_Creative_Builds.md
-   docs/6.Ultimate_Kit_Creative_Builds.md
+   docs/1_Product_Introduction.md
+   docs/2_Quick_Start.md
+   docs/3_Luxury_Kit_Creative_Builds.md
+   docs/4_Software_and_Hardware_Guide.md
+   Download <https://drive.google.com/drive/folders/1PqhPpLeL7V7iqPsGzjQlABjuplIhw97v?usp=sharing>
