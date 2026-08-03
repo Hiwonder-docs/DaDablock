@@ -4,12 +4,12 @@
    contain the root `toctree` directive.
 
 ===========
-Starter Kit
+Standard Kit
 ===========
 
 .. toctree::
    :maxdepth: 2
-   :caption: Starter Kit
+   :caption: Standard Kit
 
    docs/1_Product_Introduction.md
    docs/2_Quick_Start.md
