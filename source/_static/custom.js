@@ -90,8 +90,8 @@ function sortVersionSelector() {
 
     const versionOrder = new Map([
         ['latest', 0],
-        ['starter-kit', 1],
-        ['standard-kit', 2],
+        ['standard-kit', 1],
+        ['advanced-kit', 2],
         ['ultimate-kit', 3],
     ]);
     const selectedValue = select.value;
