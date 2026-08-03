@@ -15,4 +15,4 @@ Starter Kit
    docs/2_Quick_Start.md
    docs/3_Standard_Kit_Creative_Builds.md
    docs/4_Software_and_Hardware_Guide.md
-   Download <https://drive.google.com/drive/folders/1PqhPpLeL7V7iqPsGzjQlABjuplIhw97v?usp=sharing>
+   Download <https://drive.google.com/drive/folders/1ddwhyK2FMRhH08dkktPhzcW2v34x8XWj?usp=sharing>
