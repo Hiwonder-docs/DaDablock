@@ -15,4 +15,4 @@ Ultimate Kit
    docs/2_Quick_Start.md
    docs/3_Advanced_Kit_Creative_Builds.md
    docs/4_Software_and_Hardware_Guide.md
-   Download <https://drive.google.com/drive/folders/1TO19sJWSSZV3YjdtuN0i9AtXSuIXRKah?usp=sharing>
+   Download <https://drive.google.com/drive/folders/1TQkS2paRBfkfRvRJVoCxxfXtn2fkGa92?usp=sharing>
