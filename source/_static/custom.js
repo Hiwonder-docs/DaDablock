@@ -1,3 +1,44 @@
+// Preserve QR codes that point to the former combined-kit documentation.
+(function redirectLegacyQrCode() {
+    const targetPage = 'https://wiki.hiwonder.com/projects/DaDablock/en/ultimate-kit/'
+        + 'docs/3_Advanced_Kit_Creative_Builds.html#';
+    const oldAnchors = [
+        'assembly-guide', 'id4', 'id11', 'id18',
+        'id25', 'id32', 'id39', 'id46',
+        'id53', 'id60', 'id67', 'id74',
+    ];
+    const routes = {
+        '4. Standard Kit Creative Builds.html': [
+            'assembly-guide', 'id4', 'id10', 'id16',
+            'id22', 'id28', 'id34', 'id40',
+            'id46', 'id52', 'id58', 'id64',
+        ],
+        '5. Advanced Kit Creative Builds.html': [
+            'id70', 'id75', 'id81', 'id87',
+            'id93', 'id99', 'id105', 'id111',
+            'id117', 'id123', 'id129', 'id135',
+        ],
+        '6. Ultimate Kit Creative Builds.html': [
+            'id141', 'id147', 'id153', 'id159',
+            'id165', 'id171', 'id177', 'id183',
+            'id189', 'id195', 'id201', 'id207',
+        ],
+    };
+
+    let filename;
+    try {
+        filename = decodeURIComponent(window.location.pathname.split('/').pop());
+    } catch (error) {
+        return;
+    }
+
+    const targets = routes[filename];
+    const anchorIndex = oldAnchors.indexOf(window.location.hash.slice(1));
+    if (targets && anchorIndex !== -1) {
+        window.location.replace(targetPage + targets[anchorIndex]);
+    }
+}());
+
 function initMenu() {
     var nav_sidebar = document.querySelector('.wy-nav-side');
     var nav_search = nav_sidebar.querySelector('.wy-side-scroll .wy-side-nav-search');
